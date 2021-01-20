@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from '../Header';
 import Footer from '../Footer';
-
+import Main from '../Main';
 /**
  * App component.
  * Child Component- Header Footer and Main Body
@@ -10,7 +10,7 @@ import Footer from '../Footer';
 const App = () => (
   <div className="bt--container-page">
     <Header />
-    Main
+    <Main />
     <Footer />
   </div>
 );
